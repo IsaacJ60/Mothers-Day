@@ -92,7 +92,7 @@ const ParticlesBackground: React.FC<ParticlesBackgroundProps> = ({ zIndex = -1 }
                         color: "#000",
                         distance: 150,
                         enable: true,
-                        opacity: 0.5,
+                        opacity: 0.1,
                         width: 1,
                     },
                     opacity: { value: 0.5 },
