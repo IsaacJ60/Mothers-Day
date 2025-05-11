@@ -1,4 +1,4 @@
-# Mother’s Day Gift Generator
+# 🤱 Mother’s Day Website
 
 A fun, interactive Next.js app that lets anyone create a personalized Mother’s Day message with:
 
