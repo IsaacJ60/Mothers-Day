@@ -73,15 +73,15 @@ export default function MotherGiftPage() {
                                         <Image
                                             src={photoURL}
                                             alt="You and Mom"
-                                            width={300}
-                                            height={300}
+                                            width={500}
+                                            height={500}
                                             unoptimized
                                             className="rounded-4xl object-cover shadow-lg transition-transform duration-500 ease-in-out transform hover:scale-105"
                                         />
                                     </div>
                                 )}
                                 <h1 className="text-md sm:text-lg md:text-xl lg:text-2xl">{info.personalMessage}</h1>
-                                <p className="text-lg mt-5">- {info.yourName}</p>
+                                <p className="text-lg mt-5 capitalize">- {info.yourName}</p>
                             </div>
 
                         </Animator>

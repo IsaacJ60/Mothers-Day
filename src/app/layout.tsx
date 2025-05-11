@@ -31,7 +31,6 @@ export default function RootLayout({
       >
         {children}
         <ParticlesBackground></ParticlesBackground>
-        <p className='fixed top-1 right-3 opacity-75 text-pink-200'>Made with love, by <a href='https://www.isaacjiang.ca/' target="_blank" rel="noopener noreferrer"><u>Isaac Jiang</u></a></p>
       </body>
     </html>
   );

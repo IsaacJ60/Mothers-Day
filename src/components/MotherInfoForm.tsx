@@ -40,14 +40,23 @@ const validationSchema = Yup.object().shape({
 
 // Popular Mother’s Day flowers
 const flowerOptions = [
-    'Roses', 'Tulips', 'Lilies', 'Orchids', 'Carnations',
-    'Daisies', 'Sunflowers', 'Peonies', 'Chrysanthemums', 'Hydrangeas'
-];
+    'Roses',
+    'Tulips',
+    'Lilies',
+    'Orchids',
+    'Carnations',
+    'Daisies',
+    'Sunflowers',
+    'Peonies',
+    'Chrysanthemums',
+    'Hydrangeas',
+  ];
+  
 
 // Popular Mother’s Day colors
 const colorOptions = [
-    'Red', 'Pink', 'Yellow', 'Blue', 'Purple',
-    'White', 'Orange', 'Green', 'Black', 'Brown'
+    'Red', 'Pink', 'Purple', 'Blue', 'Yellow',
+    'White', 'Orange', 'Green', 'Lavender', 'Peach'
 ];
 
 export default function MotherInfoForm({ onSubmit }: MotherInfoFormProps) {

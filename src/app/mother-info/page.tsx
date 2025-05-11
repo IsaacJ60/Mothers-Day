@@ -18,6 +18,7 @@ export default function MotherInfoPage() {
             <h1 className="text-4xl font-bold mt-15">Who is she?</h1>
             <p className="text-center p-4">After clicking <strong>next</strong>, your e-gift will be ready.</p>
             <MotherInfoForm onSubmit={handleSubmit} />
+            <p className='fixed top-1 right-3 opacity-75 text-pink-200'>Made with love, by <a href='https://www.isaacjiang.ca/' target="_blank" rel="noopener noreferrer"><u>Isaac Jiang</u></a></p>
         </main>
     );
 }
