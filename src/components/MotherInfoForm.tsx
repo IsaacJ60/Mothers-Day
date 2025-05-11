@@ -27,12 +27,6 @@ const validationSchema = Yup.object().shape({
     favoriteFlower: Yup.string(),
     photo: Yup.mixed()
         .required('A photo is required')
-        .test('fileSize', 'File size is too large', (value) => {
-            if (value instanceof File && value.size > 2 * 1024 * 1024) { // 2MB limit
-                return false;
-            }
-            return true;
-        })
         .test('fileType', 'Unsupported file format', (value) => {
             const file = value as File | null;
             if (file instanceof File && !['image/jpeg', 'image/png', 'image/gif'].includes(file.type)) {
