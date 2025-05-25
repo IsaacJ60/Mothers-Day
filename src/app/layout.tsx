@@ -1,6 +1,5 @@
 "use client"; // Required for useState
 
-import type { Metadata } from "next";
 import { DM_Sans, /*DM_Mono*/ } from "next/font/google";
 import ParticlesBackground from '@/components/ParticlesBackground';
 import HelpPopup from '@/components/HelpPopup'; // Import HelpPopup
