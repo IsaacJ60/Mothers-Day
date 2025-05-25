@@ -13,12 +13,12 @@ const HelpPopup: React.FC<HelpPopupProps> = ({ onClose }) => {
 
   return (
     <div
-      className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50"
+      className="fixed inset-0 flex items-center justify-center p-4 z-50"
       onClick={handleBackdropClick} // Added onClick handler for backdrop click
     >
       <div className="bg-white p-6 rounded-lg shadow-xl max-w-md w-full">
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-2xl font-semibold">About This Site</h2>
+          <h2 className="text-2xl font-semibold text-gray-400">About This Site</h2>
           <button
             onClick={onClose}
             className="text-gray-500 hover:text-gray-700 text-2xl"
@@ -31,7 +31,7 @@ const HelpPopup: React.FC<HelpPopupProps> = ({ onClose }) => {
           <p>This site helps you create a personalized Mother’s Day message!</p>
           <p>Here’s how to use it:</p>
           <ol className="list-decimal list-inside pl-4 space-y-1">
-            <li>Navigate to the "Get Started" page.</li>
+            <li>Navigate to the &quot;Get Started&quot; page.</li>
             <li>Enter some information about your mother.</li>
             <li>Let the site generate a unique and heartfelt message for you.</li>
           </ol>
